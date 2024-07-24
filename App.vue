@@ -1,7 +1,7 @@
 <template>
     <div id="app">
 
-        <Viewer :markdown="'hello'" />
+        <Viewer :markdown="markdown" />
 
     </div>
 </template>
@@ -12,57 +12,57 @@ export default Vue.defineComponent({
     data() {
         return {
             markdown: `
-            # h1
-            aaaaaaa
-            あああああああああああ
+# h1
+aaaaaaa
+あああああああああああ
 
-            あああああああああ
+あああああああああ
 
-            ## h2
-            aaaaaaaaaaaaaaaaaa
-            ああああああああああああああああああ
+## h2
+aaaaaaaaaaaaaaaaaa
+ああああああああああああああああああ
 
-            ### h3
-            aaaaaaaaaaaaaaaaaaaaa
-            あああああああああああああああああああ
+### h3
+aaaaaaaaaaaaaaaaaaaaa
+あああああああああああああああああああ
 
-            #### h4
-            aaaaaaaaaaaaaaaaaaaaa
-            ああああああああああああああああ
+#### h4
+aaaaaaaaaaaaaaaaaaaaa
+ああああああああああああああああ
 
-            ##### h5
-            aaaaaaaaaaaaaaaaaaaa
-            あああああああああああああああ
+##### h5
+aaaaaaaaaaaaaaaaaaaa
+あああああああああああああああ
 
-            ###### h6
-            aaaaaaaaaaaaaaaaaaaaa
-            あああああああああああああああああ
+###### h6
+aaaaaaaaaaaaaaaaaaaaa
+あああああああああああああああああ
 
-            - list1
-            - list2
-            - list3
+- list1
+- list2
+- list3
 
-            1. list1
-            2. list2
-            3. list3
+1. list1
+2. list2
+3. list3
 
-            [link](https://www.google.com)
-            
-            image
-            
-            ![image](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
+[link](https://www.google.com)
 
-            **bold**
-            *italic*
-            ***bold italic***
+image
 
-            **太字**
-            *斜体*
-            ***太字 斜体***
+![image](https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png)
 
-            > quote
+**bold**
+*italic*
+***bold italic***
 
-            \`code\`
+**太字**
+*斜体*
+***太字 斜体***
+
+> quote
+
+\`code\`
             `
         }
     },
