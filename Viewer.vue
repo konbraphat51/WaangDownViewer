@@ -101,4 +101,12 @@ export default {
 	margin: 0 0 0.5rem 1em;
 }
 
+.MarkDownViwer code {
+	background: #e0e0e0;
+	color: #000000;
+	font-family: 'Courier New', Courier, monospace;
+	padding: 0.1em 0.2em;
+	border-radius: 0.2em;
+}
+
 </style>
