@@ -95,4 +95,10 @@ export default {
 	margin : 0 0 0.5em;
 }
 
+.MarkDownViwer blockquote {
+	border-left: solid 5px #81d498;
+	padding: 0.5em 0.2em 0.1em 0.2em;
+	margin: 0 0 0.5rem 1em;
+}
+
 </style>
