@@ -77,18 +77,20 @@ export default {
 
 .MarkDownViwer h4 {
 	font-size: 1.5rem;
+	border-bottom: dashed 2px #81d498;
+	width: fit-content;
 	padding : 0 0.2rem;
-	margin : 0 0 0.5em;
+	margin : 0 0.2rem 0.5em;
 }
 
 .MarkDownViwer h5 {
-	font-size: 1.2rem;
+	font-size: 1.5rem;
 	padding : 0 0.4rem;
 	margin : 0 0 0.5em;
 }
 
 .MarkDownViwer h6 {
-	font-size: 1rem;
+	font-size: 1.2rem;
 	padding : 0 0.8rem;
 	margin : 0 0 0.5em;
 }
