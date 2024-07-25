@@ -39,7 +39,7 @@ aaaaaaaaaaaaaaaaaaaaa
 あああああああああああああああああ
 
 - list1
-- list2
+  - list2
 - list3
 
 1. list1

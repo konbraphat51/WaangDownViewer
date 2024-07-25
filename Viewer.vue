@@ -109,4 +109,16 @@ export default {
 	border-radius: 0.2em;
 }
 
+.MarkDownViwer ul {
+	list-style-type: square;
+	list-style-position: inside;
+	padding: 0.2rem 0.5rem 0.2rem 1.3rem;
+}
+
+.MarkDownViwer ol {
+	list-style-type: decimal;
+	list-style-position: inside;
+	padding: 0.2rem 0.5rem 0.2rem 1.3rem;
+}
+
 </style>
