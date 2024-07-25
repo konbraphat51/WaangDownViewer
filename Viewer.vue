@@ -61,7 +61,7 @@ export default {
 .MarkDownViwer h2 {
 	font-size: 1.5rem;
 	padding: 0.2em 0.3rem;
-	color: #494949;
+	color: #000000;
 	background: #e1ffd9;
 	border-left: solid 5px #589e67;
 	margin : 0 0 0.5em;
