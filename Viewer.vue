@@ -121,4 +121,8 @@ export default {
 	padding: 0.2rem 0.5rem 0.2rem 1.3rem;
 }
 
+.MarkDownViwer img {
+	max-width: 50%;
+}
+
 </style>
