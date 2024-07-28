@@ -50,7 +50,7 @@ export default {
 }
 
 .MarkDownViwer h1 {
-	font-size: 4em;
+	font-size: 2.5em;
 	padding: 0.1em 0;
 	border-top: solid 3px #81d498;
 	border-bottom: solid 3px #81d498;
